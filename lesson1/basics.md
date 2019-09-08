@@ -22,7 +22,8 @@
 * mv <path>
     * Fileokat, konytarakat mozgat vagy nevez at
       * pl:
-        ```mv main.c not_main.c # atnevezi a filet
+        ```
+        mv main.c not_main.c # atnevezi a filet
         mv source_file.c src/source_file.c # atmozgatja a filet az src mappaba
         ```
         
