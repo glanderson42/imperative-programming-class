@@ -65,6 +65,17 @@ Ha a programunk tobb .c filebol all ossze akkor mindet megkell adnunk a forditon
 ```
 gcc main.c src/crypt.c src/gui.c # nagyvonalakban igy tudjuk 'egybeforditani' a tobb .c filebol allo programunkat
 ```
+### Forditas flagekkel
+Forditaskor tudunk kulonbozo flag-eket is megadni a forditoprogramnak amellyel megadhatjuk azt hogy milyen szinten optimalizalja a kodunkat, milyen neve legyen a futtathato allomanyunknak, vagy esetleg kulonbozo warning uzeneteket nyerhetunk ki forditasi idoben, amik a kodunk kisebb (nem szintaktikai) hibaira hivja fel a figyelmunkat.
+Pelda az ```-o``` flagre
+```
+gcc main.c -o main.out # letrejon egy futtathato allomany main.out neven, a.out helyett
+```
+Pelda az ```-Ox``` flagre. Ahol az x 0-3ig tarto szam lehet, ami az optimalizacio szintjet jeloli
+```
+gcc main.c -O3 # 3-as, maximalis optimalizacioval forditja a kodot futtathato allomannya
+```
+Egyeb hasznos flagek peldaul: ```-Wall```, ```-Wextra```, ```-Werror```, ```-Winit-self```, ```-Wfloat-equal``` [stb](https://stackoverflow.com/questions/3375697/useful-gcc-flags-for-c)
 ### Futtatas:
 A futtathato allomanyokat linuxon a './'-el futtathatjuk. Miutan sikeresen leforditottuk a kodunkat futtathato allomanyt kapunk amilyet a kovetkezo modon tudunk futtatni:
 ```
