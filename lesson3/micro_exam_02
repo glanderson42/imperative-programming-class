@@ -1,0 +1,6 @@
+1, Irj egy programot ami 1-tol 100ig kiirja a szamokat. Ha a szam oszthato
+harommal, akkor irja ki a szam helyett hogy "Fizz", ha oszthato ottel, akkor
+"Buzz", ha mind a kettovel akkor "FizzBuzz". Emlekezteto: C-ben a maradekos
+osztashoz a '%' operatort hasznaljul. pl: int n = 3 % 2; // itt az n-erteke 1
+
+2, Mire hasznaljuk(hasznaltuk) az 'atoi' fuggvenyt?
