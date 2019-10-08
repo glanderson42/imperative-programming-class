@@ -1,0 +1,5 @@
+1, Adott egy functions.h nevu header file. Hogy nezne ki hozza az include guard?
+A fileban talalhato kodra hivatkozzunk ugy hogy '// code'
+
+2, Adott egy functions.h nevu header file, egy functions.c nevu forrasfajl es
+egy main.c nevu forrasfajl. Hogyan tudjuk oket egybe forditani? (Feltehetjuk hogy az include-ok es include guard-ok jok)

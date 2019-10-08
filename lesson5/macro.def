@@ -1,0 +1,10 @@
+#ifndef MACRO_DEF
+#define MACRO_DEF
+
+#define E 2.71828
+#define PI 3.14159
+#define SQR_2 1.41421
+#define SQR_3 1.73205
+#define SQR_5 2.23606
+
+#endif // MACRO_DEF
